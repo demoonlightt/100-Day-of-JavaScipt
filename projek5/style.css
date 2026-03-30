@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    background: linear-gradient(135deg, #ffd6e8, #ffc0cb, #ffe4f0);
+    color: #5a2a4d;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Container */
+.container {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+}
+
+/* Input */
+input {
+    font-size: 1em;
+    padding: 12px;
+    text-align: center;
+    width: 85%;
+    background-color: #fff0f5;
+    color: #5a2a4d;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Dropdown */
+.selector-1 {
+    font-size: 1em;
+    padding: 12px;
+    margin-top: 10px;
+    width: 88%;
+    background-color: #ffe4ec;
+    color: #5a2a4d;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Text */
+.text-1, .text-2 {
+    font-size: 1.3em;
+    margin: 15px 0;
+}
+
+/* Dice Image */
+img {
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+    transition: transform 0.2s ease;
+}
+
+img:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+/* Button (FIXED WIDTH BIAR GAK KEKEBANGET) */
+button, .convert-button {
+    font-size: 0.9em;
+    padding: 10px 18px;
+    margin-top: 15px;
+    width: auto; /* ini yang bikin gak kepanjangan */
+    min-width: 120px;
+    background: linear-gradient(135deg, #ff9ecf, #ff6fa5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover lucu tapi elegan */
+button:hover, .convert-button:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
+}
+
+button:active {
+    transform: scale(0.95);
+}
